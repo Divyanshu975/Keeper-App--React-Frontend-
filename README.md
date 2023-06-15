@@ -1,3 +1,5 @@
+This is an application that can be used to keep a track og=f ideas , notes and is similar to the Google keeper app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
