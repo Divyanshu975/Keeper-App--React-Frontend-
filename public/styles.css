@@ -1,0 +1,117 @@
+:root{
+    --title-color:#0C134F;
+}
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin:0px;
+    border:0px;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #D4ADFC;
+}
+
+.header{
+    background-color: var(--title-color);
+    color: #D4ADFC;
+    width:100%;
+    padding: 16px 30px;
+    /* padding-left:1rem; */
+    font-size: 2rem;
+    margin-bottom:1rem;
+}
+.note{
+    /* padding:2rem; */
+    margin:1rem;
+    border-radius:7px; 
+    max-width: 300px;
+    box-shadow: 0 2px 5px #9632fb;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    float: left;
+    margin-left: 1rem;
+}
+.note-title{
+    /* font-weight: bold; */
+    max-width:466px;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    /* text-align: center; */
+    
+}
+
+.note-content{
+    font-size: 1.25rem;
+    /* text-align: center; */
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.del-button{
+    background-color:#0C134F ;
+    color: #D4ADFC;
+    border-radius:5px;
+    padding: 0.35rem 0.65rem 0.35rem 0.65rem;
+    margin-left: 14.65rem;
+    margin-bottom: 0.35rem;
+    margin-right:0.35rem;
+    /* margin-top: 1rem; */
+    cursor: pointer;
+}
+
+.footer-div{
+    /* text-align: center; */
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    background-color: var(--title-color);
+    padding:1rem;
+    
+}
+
+.footer-content{
+    text-align: center;
+    margin: auto;
+    color: #D4ADFC;
+}
+
+form input,
+form textarea {
+    position:relative;
+background-color: #D4ADFC;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button{
+    background-color: #0C134F;
+    color:#D4ADFC;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position :relative;
+    left:430px;
+    top:15px;
+}
+
+.createArea{
+    margin:1rem;
+    border-radius:7px; 
+    max-width:500px;
+    box-shadow: 0 2px 5px #9632fb;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+}
+
