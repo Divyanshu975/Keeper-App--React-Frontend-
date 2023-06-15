@@ -1,4 +1,4 @@
-This is an application that can be used to keep a track og=f ideas , notes and is similar to the Google keeper app.
+This is an application that can be used to keep a track of ideas , notes and is similar to the Google keeper app.
 
 # Getting Started with Create React App
 
